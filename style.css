@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+       
+}
+
+#hero{
+      background-image: url(Resources/Ranchi_Images/Hundru-falls/hudru-falls-1.jpg);
+      background-size:100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding: 80px 0 40px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+         
+}
+#h1-hero{
+     background-color: #dcdcdc;
+     color: #446439;
+}
+#h2-hero{
+    background-color: #446439;
+    color: #dcdcdc;
+   
+}
+ .headings-hero{
+    display: flex;
+    margin: auto auto 10px auto;
+    padding: 0 4px 0 8px;
+    border-radius: 8px;
+} 
+#p-intro{
+    background-color:#526270;
+    color: #dcdcdc;
+    padding:10px 0 2px 0;
+}
+#activity-section{
+  background-color:#e2eebc;
+  padding-top: 10px;
+}
+
+.flex-container{
+   
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+   
+}
+
+.img-items {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #e2eebc;
+    border-radius: 50%;
+}
+
+#guide-section{
+    width: 400px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333638;
+    border: #dcdcdc;
+    color: #e2eebc;
+    padding: 20px;
+    font-weight:lighter;
+    border-left: 10px solid #e2eebc;
+    border-bottom: 20px solid #446439;
+}
+#avatar{
+    width:100px;
+
+}
+
+.img-items:hover{
+    width: 400px;
+    height: 200px;
+}
